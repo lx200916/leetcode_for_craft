@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: white;
+}
+
+body.dark {
+  background-color: #222222;
+}
+
+.marker{
+/*background-image: linear-gradient(to left,rgba(255,225,0,.7),rgba(255,225,0,.3));*/
+border-radius:0.3em;
+  @apply px-2 text-lg py-1 bg-gradient-to-r from-green-200 to-green-500
+}
+.marker span.highlight{
+background: rgba(255,255,255,.5);
+  border-radius:4px;
+    padding: 2px 4px;
+  margin: 2px 0;
+}
+

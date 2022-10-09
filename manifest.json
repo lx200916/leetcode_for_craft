@@ -1,0 +1,10 @@
+{
+  "id": "do.craft.lcImporter",
+  "name": "LeetCode CN to Craft",
+  "fileName": "lcImporter",
+  "author" : "SaltedFish",
+  "author-email" : "lx@lx0.xyz",
+  "description" : "Import LeetCode Problems to Craft Docs",
+  "api": "0.0.4",
+  "main": "index.html"
+}
